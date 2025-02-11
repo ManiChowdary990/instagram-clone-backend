@@ -1,6 +1,6 @@
 const Post = require('../models/Post');
 const User = require('../models/User');
-const Notification = require('../models/notification'); // Import notification model
+const Notification = require('../models/Notification'); // Import notification model
 
 // Create a new post
 exports.createPost = async (req, res) => {
